@@ -79,7 +79,7 @@ interface DoughnutChartProps {
 	labels: string[];
 	data: number[];
 	backgroundColor: string[];
-	cutout?: number;
+	cutout?: number | string;
 	legends?: boolean;
 	offset?: number[];
 }
